@@ -2,9 +2,7 @@
 
 angular.module('djxDashApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+    $scope.widgets = [
+        "partials/conrad-widget.html", "partials/jason-widget.html", "partials/conrad-widget.html"
     ];
   });

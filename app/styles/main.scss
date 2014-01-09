@@ -21,6 +21,7 @@ body {
 .footer {
     padding-left: 15px;
     padding-right: 15px;
+    margin-bottom: 15px;
 }
 
 /* Custom page header */
@@ -88,4 +89,8 @@ body {
     .jumbotron {
         border-bottom: 0;
     }
+}
+
+.widget {
+  cursor: move;
 }

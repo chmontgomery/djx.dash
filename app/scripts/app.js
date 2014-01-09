@@ -4,8 +4,9 @@ angular.module('djxDashApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
-])
+  'ngRoute',
+        'ui.directives'
+    ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
